@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "project-React-Native",
+    "slug": "project-react-native",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.souzalipeorg.projectreactnative"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.souzalipeorg.projectreactnative"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "73bf83a5-1f18-4848-b30c-60ff1d576459"
+      }
+    },
+    "owner": "souzalipe-org",
+    "updates": {
+      "url": "https://u.expo.dev/73bf83a5-1f18-4848-b30c-60ff1d576459"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
